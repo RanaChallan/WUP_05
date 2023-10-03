@@ -82,6 +82,26 @@ Int the infected group, we see that there are approximately three times as many 
 head(drug_users)
 ```
 
+
+```{r}
+
+chisq.test(table1)
+chisqtestGC(table1)
+fisherResult <- fisher.test(table1)
+
+#print fisher Result
+fisherResult
+
+#Confidence Intervals
+low=(fisherResult$conf.int[1]/(fisherResult$conf.int[1] + 1))*100
+hi=(fisherResult$conf.int[2]/(fisherResult$conf.int[2] + 1))*100
+
+#print
+low
+hi
+```
+
+
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->

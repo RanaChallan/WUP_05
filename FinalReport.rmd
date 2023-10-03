@@ -25,6 +25,20 @@ $H_A$: There is a difference in the data when comparing treatment and infection 
 
 # Methods
 
+We will use the Dyplr tool "Filter" to create a subset of the data, soring only data where drug user = "yes".
+We will then use CandP helper files to get R code to show a combination of: 
+graphical, numerical, and inferential to test the null hypothesis.
+
+```{r include=FALSE}
+
+
+drug_users <- filter(triUmp, DrugUser == "yes")
+
+
+drug_users$treatment <- factor(drug_users$treatment, levels = c("placebo", "drug"))
+
+```
+
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method. Discuss what data manipulations may be needed for example subsetting or other binning procedures and what sort of graphical displays and inferential tools will be used!-->
 
 # Results

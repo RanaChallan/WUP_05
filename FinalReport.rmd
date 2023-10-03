@@ -101,6 +101,11 @@ low
 hi
 ```
 
+We have ran three inferential tests in this section, Two Chi-Squared tests, and a Fisher's Exact Test.
+In the Chi-Squared Test we are getting a p value of 0.0080001242 which is far Lower then 0.05
+and a Chi-Squared ~28 which is far greater then our critical value for degrees of freedom in this case (1).
+Given these scores we can infer that there is a difference in the data
+
 
 # Discussion and Conclusion
 

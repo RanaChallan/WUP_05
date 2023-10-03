@@ -110,3 +110,6 @@ Given these scores we can infer that there is a difference in the data
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+We can see through our graphical and numerical results that the placebo group contracts the disease at a greater frequency than the treatment group. This coupled with the tests of statistical inference show that there is a statistically significant difference in the data. We can conclude that there is as negative correlation between vaccination and disease frequency. Due to the high number of people in this study we can assume that random variations played a small roll if any in the data. We can infer from these results, assuming the data was corrected accuratly that there is causation in this case and the vaccine is in fact effective.
+

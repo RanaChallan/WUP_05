@@ -56,6 +56,12 @@ barchartGC(~infected + treatment,data=drug_users)
 barchartGC(~infected + treatment,data=drug_users, type="percent")
 ```
 
+We have created two bar charts to compare the data, the first shows total number of people who are involved in the analysis.
+
+In chart 1, we see that most people who are drug users, do not contract AIDS however it does not show us much about the effectiveness of the drug.
+
+In chart 2, we have a clearer picture because it shows the data as a percentage.In this test we see that the treatment group has lower incidence of AIDS when compares to the placebo group.
+
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
